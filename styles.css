@@ -1,0 +1,141 @@
+.hero {
+  background: linear-gradient(to right, #00b4d8, #0077b6);
+  color: #fff;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.hero-subheadline {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+  color: #f0f8ff;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 14px 30px;
+  background-color: #03045e;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #023e8a;
+}
+
+.features {
+  background-color: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features-title {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature-item {
+  background: #fff;
+  padding: 25px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.feature-item:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.feature-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+.footer {
+  background-color: #0d1b2a;
+  color: #fff;
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-contact h3,
+.footer-social h3 {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: #00b4d8;
+}
+
+.footer-contact p,
+.footer-social a {
+  font-size: 1rem;
+  color: #f0f8ff;
+  margin: 5px 0;
+}
+
+.footer-social .social-icons a {
+  margin: 0 8px;
+  font-size: 1.4rem;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.footer-social .social-icons a:hover {
+  transform: scale(1.2);
+}
+
+.footer-bottom {
+  border-top: 1px solid #1b2a41;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
